@@ -1,0 +1,16 @@
+body {
+	background-color: solid black;
+}
+
+.p1 {
+	background-image: url(https://cdn.pixabay.com/photo/2010/12/13/10/05/background-2277_960_720.jpg);
+	background-size: cover;
+}
+.p2 {
+	background-image: url(https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg);
+	background-size: cover;
+}
+.p3 {
+	background-image: url(https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg);
+	background-size: cover;
+}
