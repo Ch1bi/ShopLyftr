@@ -59,31 +59,13 @@
 
 </div>
 <!--Start of Carousel -->
-<div class="row" style="margin-top: -15px;">
-    <div class="col s12 l12">
-  <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2" href="product.html">Get Started!</a>
-    </div>
-    <div class="carousel-item red white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-   
+  
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="img/sergio2.jpg" height="400px"></a>
+    <a class="carousel-item" href="#two!"><img src="img/karla.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
   </div>
-
-    </div>
-
-</div>
-
 <!--End of Carousel-->
 
 <!--Start about us section-->
@@ -137,15 +119,19 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
 <script>
-
-
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
+   $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        
+   $('.carousel.carousel-slider').carousel({fullWidth: true});
 </script>
 
 </html>
