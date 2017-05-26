@@ -63,18 +63,10 @@
  <div class="slider">
     <ul class="slides">
       <li>
-        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="img/sergio2.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="img/karla.jpg"> <!-- random image -->
       </li>
       <li>
         <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
@@ -155,7 +147,12 @@
 
 <script>
    $(document).ready(function(){
-      $('.slider').slider().interval(100);
+      $('.slider').slider({
+
+        indicators:false,
+        interval:3000  
+      });
+      
     });
 </script>
 
