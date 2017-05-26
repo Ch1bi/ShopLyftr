@@ -60,12 +60,39 @@
 </div>
 <!--Start of Carousel -->
   
-  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="img/sergio2.jpg" height="400px"></a>
-    <a class="carousel-item" href="#two!"><img src="img/karla.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
-    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+ <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
   </div>
+      
 <!--End of Carousel-->
 
 <!--Start about us section-->
@@ -128,10 +155,8 @@
 
 <script>
    $(document).ready(function(){
-      $('.carousel').carousel();
+      $('.slider').slider().interval(100);
     });
-        
-   $('.carousel.carousel-slider').carousel({fullWidth: true});
 </script>
 
 </html>
